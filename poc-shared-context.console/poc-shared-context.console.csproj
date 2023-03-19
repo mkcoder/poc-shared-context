@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>poc_shared_context.console</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\poc-shared-context.domain\poc-shared-context.domain.csproj" />
+    <ProjectReference Include="..\poc-shared-context.logic\poc-shared-context.logic.csproj" />
+  </ItemGroup>
+</Project>

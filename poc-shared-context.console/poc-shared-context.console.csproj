@@ -11,5 +11,9 @@
   <ItemGroup>
     <ProjectReference Include="..\poc-shared-context.domain\poc-shared-context.domain.csproj" />
     <ProjectReference Include="..\poc-shared-context.logic\poc-shared-context.logic.csproj" />
+    <ProjectReference Include="..\poc-other-project-ms\poc-other-project-ms.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ConsoleTableExt" Version="3.2.0" />
   </ItemGroup>
 </Project>

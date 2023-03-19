@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-shared-context.domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-shared-context.console", "poc-shared-context.console\poc-shared-context.console.csproj", "{5CFEEE04-6BF1-4F90-9F82-208730CBDE46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-other-project-ms", "poc-other-project-ms\poc-other-project-ms.csproj", "{01F00E0D-4956-48D9-96D1-EB7FA818062F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5CFEEE04-6BF1-4F90-9F82-208730CBDE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CFEEE04-6BF1-4F90-9F82-208730CBDE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CFEEE04-6BF1-4F90-9F82-208730CBDE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F00E0D-4956-48D9-96D1-EB7FA818062F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F00E0D-4956-48D9-96D1-EB7FA818062F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F00E0D-4956-48D9-96D1-EB7FA818062F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F00E0D-4956-48D9-96D1-EB7FA818062F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
